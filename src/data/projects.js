@@ -65,18 +65,31 @@ export const projects = [
     },
     webDemo: "https://leftoverchef.vercel.app/",
     gitHub: "https://github.com/Chafik-Rd/Personal-Project-LeftoverChef",
-    pin: true,
+    pin: false,
   },
   {
     id: 6,
     name: "Expense Trackr API (2025)",
     detail: `A RESTful API for personal expense tracking. It implements full CRUD operations for transactions and income. Features secure JWT Authentication and leverages Fastify and PostgreSQL for reliable data handling, utilizing Zod for strict input validation.`,
-    techStacks: ["Fastify", "PostgreSQL", "TypeORM", "Zod","Docker"],
-    // img: {
-    //   url: "./images/web-leftoverChef.png",
-    //   alt: "web leftoverChef",
-    // },
+    techStacks: ["Fastify", "PostgreSQL", "TypeORM", "Zod", "Docker"],
+    img: {
+      url: "./images/web-expense-trackr-API.png",
+      alt: "web expense-trackr-API",
+    },
     gitHub: "https://github.com/Chafik-Rd/expense-trackr-api",
+    pin: true,
+  },
+  {
+    id: 7,
+    name: "Blog (2025)",
+    detail: `A personal tech blog where I collect and share my learning notes, coding experiences, and useful knowledge. It serves as my own reference and hopefully helps others who are interested in technology and programming.`,
+    techStacks: ["VitePress", "Vue.js", "Markdown"],
+    img: {
+      url: "./images/web-blog.png",
+      alt: "web blog",
+    },
+    webDemo: "https://codepairueay.vercel.app/",
+    gitHub: "https://github.com/Chafik-Rd/Personal-Project-Blog",
     pin: true,
   },
 ];

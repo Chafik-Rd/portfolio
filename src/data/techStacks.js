@@ -90,6 +90,20 @@ export const techStacks = [
       alt: "icon axios",
     },
   },
+  {
+    id: 14,
+    icon: {
+      url: "./images/skill-icons/docker.svg",
+      alt: "icon docker",
+    },
+  },
+  {
+    id: 15,
+    icon: {
+      url: "./images/skill-icons/typescript.svg",
+      alt: "icon typescript",
+    },
+  },
 ];
 
 const halfLength = Math.floor(techStacks.length / 2);
