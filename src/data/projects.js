@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    name: "pokémon API (2024)",
+    name: "pokémon (2024)",
     detail:
       "A practice project for fetching and displaying data from an external API (Pokémon API) with an interactive UI.",
     techStacks: ["React", "TailwindCSS", "FetchAPI"],
@@ -10,7 +10,7 @@ export const projects = [
       alt: "web pokemon",
     },
     webDemo: "https://pokemon-chafik.netlify.app",
-    gitHub: "https://github.com/Chafik-Rd/Personal-Project-Pokemon",
+    gitHub: "https://github.com/Chafik-Rd/pokemon-card-app",
     pin: false,
   },
   {
@@ -24,7 +24,7 @@ export const projects = [
       alt: "web portfolio V.1",
     },
     webDemo: "https://portfolio-chafik.netlify.app/",
-    gitHub: "https://github.com/Chafik-Rd/Personal-Project-PortfolioV1",
+    gitHub: "https://github.com/Chafik-Rd/portfolio-v1",
     pin: false,
   },
   {
@@ -37,8 +37,8 @@ export const projects = [
       alt: "web portfolio",
     },
     webDemo: "https://portfolio-chafik.vercel.app/",
-    gitHub: "https://github.com/Chafik-Rd/Personal-Project-Portfolio",
-    pin: true,
+    gitHub: "https://github.com/Chafik-Rd/portfolio",
+    pin: false,
   },
   {
     id: 4,
@@ -50,25 +50,11 @@ export const projects = [
       alt: "web dailyLean",
     },
     webDemo: "https://front-end-final-project-cyan.vercel.app/",
-    gitHub: "https://github.com/Chafik-Rd/Group-Project-DailyLean-FE",
+    gitHub: "https://github.com/Chafik-Rd/group-project-dailyLean-app",
     pin: true,
   },
   {
     id: 5,
-    name: "LeftoverChef (Present)",
-    detail: `A full-stack MERN application that helps manage fridge ingredients and suggests recipes.
-    Developed from scratch, covering UX/UI design, database management, and API integration.`,
-    techStacks: ["React", "Node.js", "AxiosAPI", "MongoDB"],
-    img: {
-      url: "./images/web-leftoverChef.png",
-      alt: "web leftoverChef",
-    },
-    webDemo: "https://leftoverchef.vercel.app/",
-    gitHub: "https://github.com/Chafik-Rd/Personal-Project-LeftoverChef",
-    pin: false,
-  },
-  {
-    id: 6,
     name: "Expense Trackr API (2025)",
     detail: `A RESTful API for personal expense tracking. It implements full CRUD operations for transactions and income. Features secure JWT Authentication and leverages Fastify and PostgreSQL for reliable data handling, utilizing Zod for strict input validation.`,
     techStacks: ["Fastify", "PostgreSQL", "TypeORM", "Zod", "Docker"],
@@ -80,8 +66,8 @@ export const projects = [
     pin: true,
   },
   {
-    id: 7,
-    name: "Blog (2025)",
+    id: 6,
+    name: "Personal Blog (2025)",
     detail: `A personal tech blog where I collect and share my learning notes, coding experiences, and useful knowledge. It serves as my own reference and hopefully helps others who are interested in technology and programming.`,
     techStacks: ["VitePress", "Vue.js", "Markdown"],
     img: {
@@ -89,7 +75,20 @@ export const projects = [
       alt: "web blog",
     },
     webDemo: "https://codepairueay.vercel.app/",
-    gitHub: "https://github.com/Chafik-Rd/Personal-Project-Blog",
+    gitHub: "https://github.com/Chafik-Rd/personal-blog",
+    pin: true,
+  },
+  {
+    id: 7,
+    name: "LeftoverChef (Present)",
+    detail: `Developed a full-stack application to streamline food waste through ingredient tracking and recipe suggestions, architecting a scalable NestJS/PostgreSQL backend and Next.js frontend with Docker for seamless deployment.`,
+    techStacks: ["Next.js", "NestJS", "Docker", "PostgreSQL"],
+    img: {
+      url: "./images/web-leftoverChef.png",
+      alt: "web leftoverChef",
+    },
+    webDemo: "https://leftoverchef.vercel.app/",
+    gitHub: "https://github.com/Chafik-Rd/leftover-chef",
     pin: true,
   },
 ];

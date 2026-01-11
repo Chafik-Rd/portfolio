@@ -104,6 +104,13 @@ export const techStacks = [
       alt: "icon typescript",
     },
   },
+  {
+    id: 15,
+    icon: {
+      url: "./images/skill-icons/nestjs.svg",
+      alt: "icon nestjs",
+    },
+  },
 ];
 
 const halfLength = Math.floor(techStacks.length / 2);
