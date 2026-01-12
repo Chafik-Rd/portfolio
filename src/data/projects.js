@@ -87,7 +87,6 @@ export const projects = [
       url: "./images/web-leftoverChef.png",
       alt: "web leftoverChef",
     },
-    webDemo: "https://leftoverchef.vercel.app/",
     gitHub: "https://github.com/Chafik-Rd/leftover-chef",
     pin: true,
   },
